@@ -20,6 +20,7 @@ public class StandaloneTest {
     	WebDriver driver = new ChromeDriver(options);
 
     	driver.manage().window().maximize();
+    	//added comments
     	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
     	driver.get("https://www.tvscredit.com/get-in-touch/");
